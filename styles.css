@@ -1,4 +1,69 @@
-body{background-color:blue;
-font-size:30pt;
-h1{font-size 300%;}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.horizontal-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+  
+.horizontal-navigation li {
+    float: left;
+}
+  
+.horizontal-navigation li a {
+    display: block;
+    color: rgb(248, 247, 247);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+  /* Change the link color to #111 (black) on hover */
+.horizontal-navigation li a:hover {
+    background-color: #111;
+}
+
+header {
+    height: 10em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 1em;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    padding: 0 1em;
+}
+
+.character-cards {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.character-card { 
+    width: 20em;
+    margin: 0 1em;
+}
+
+.character-card  img { 
+    width: 100%;
+    height: auto;
+}
+
+.character-card  h3{ 
+    color: red;
 }
