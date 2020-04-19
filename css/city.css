@@ -67,3 +67,7 @@ header img {
 .character-card  h3{ 
     color: red;
 }
+
+hr {
+    border-color: darkred;
+}
